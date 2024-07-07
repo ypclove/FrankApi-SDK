@@ -7,6 +7,7 @@
   <a href="https://github.com/ypclove/FrankApi-SDK" target="_blank"><img src='https://img.shields.io/github/forks/ypclove/FrankApi-SDK' alt='GitHub forks' class="no-zoom"></a>
   <a href="https://github.com/ypclove/FrankApi-SDK" target="_blank"><img src='https://img.shields.io/github/stars/ypclove/FrankApi-SDK' alt='GitHub stars' class="no-zoom"></a>
 </div>
+
 ## 导航
 
 * **[FrankApi 接口开放平台 🔗](https://api.franksteven.me/)**
@@ -14,7 +15,9 @@
 * **[FrankApi-Frontend 前端 🖥](https://github.com/ypclove/FrankApi-Frontend)**
 * **[FrankApi-Doc 开发者文档 📖](https://doc.franksteven.me/)**
 * **[FrankApi-SDK 🔭](https://github.com/ypclove/FrankApi-SDK)**
-* **[FrankApi-SDK-Demo ✔️](https://github.com/ypclove/FrankApi-Backend/blob/master/frankapi-backstage/src/main/java/com/frank/apibackstage/controller/InterfaceInfoController.java)**
+* *
+  *[FrankApi-SDK-Demo ✔️](https://github.com/ypclove/FrankApi-Backend/blob/master/frankapi-backstage/src/main/java/com/frank/apibackstage/controller/InterfaceInfoController.java)
+  **
 
 ## 快速开始
 
@@ -23,6 +26,7 @@
 在您的项目 pom.xml 中添加如下依赖：
 
 ```xml
+
 <dependency>
     <groupId>com.frank</groupId>
     <artifactId>FrankApi-SDK</artifactId>
@@ -34,27 +38,27 @@
 
 * 前往 [FrankApi 接口开放平台](https://api.franksteven.com/)，注册并登录进入个人中心，即可获取到您的开发者密钥。
 
-* 配置您的开发者密钥，在您的项目 application.yml（推荐） 或者 application.properties 中添加如下配置。
+* 配置您的开发者密钥，在您的项目 `application.yml`（推荐） 或者 `application.properties` 中添加如下配置。
 
-  1. yml
+    1. yml
 
-     ```yaml
-     # FrankApi 配置
-     frank:
-       api:
-         client:
-           access-key: 你的 accessKey
-           secret-key: 你的 secretKey
-           # 本地网关地址，可修改为自己的网关，用于本地测试，线上网关地址等，不配置默认平台的网关
-           # host: http://localhost:8090/api
-     ```
+       ```yaml
+       # FrankApi 配置
+       frank:
+         api:
+           client:
+             access-key: 你的 accessKey
+             secret-key: 你的 secretKey
+             # 本地网关地址，可修改为自己的网关，用于本地测试，线上网关地址等，不配置默认平台的网关
+             # host: http://localhost:8090/api
+       ```
 
-  2. properties
+    2. properties
 
-     ```properties
-     frank.api.client.access-key=你的 accessKey
-     frank.api.client.secret-key=你的 secretKey
-     ```
+       ```properties
+       frank.api.client.access-key=你的 accessKey
+       frank.api.client.secret-key=你的 secretKey
+       ```
 
 ### 3. 使用 FrankApiClient 调用接口
 
@@ -118,7 +122,9 @@
   }
   ```
 
-* **更多示例详见：[FrankApi-SDK-Demo 示例项目](https://github.com/ypclove/FrankApi-Backend/blob/master/frankapi-backstage/src/main/java/com/frank/apibackstage/controller/InterfaceInfoController.java)**
+* *
+  *更多示例详见：[FrankApi-SDK-Demo 示例项目](https://github.com/ypclove/FrankApi-Backend/blob/master/frankapi-backstage/src/main/java/com/frank/apibackstage/controller/InterfaceInfoController.java)
+  **
 * **更多接口详见：[FrankApi-Doc 开发者文档](https://doc.franksteven.me/)**
 
 ## 贡献
@@ -127,4 +133,4 @@
 
 ## issue
 
-如果您有本项目的任何问题，或者发现了某些:bug:，欢迎 issue。
+如果您有本项目的任何问题，或者发现了某些🐛，欢迎 issue。
